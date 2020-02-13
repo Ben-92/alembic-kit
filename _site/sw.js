@@ -1,8 +1,8 @@
-const version = '20200213174903';
+const version = '20200213210223';
 const cacheName = `static::${version}`;
 
 const buildContentBlob = () => {
-  return ["/general/2018/08/22/hello-world/","/about/","/categories/","/blog/","/","/manifest.json","/assets/search.json","/assets/styles.css","/redirects.json","/sitemap.xml","/robots.txt","/feed.xml","https://www.gravatar.com/avatar/6c0377abcf4da91cdd35dea4554b2a4c?s=52", "/assets/default-offline-image.png", "/assets/scripts/fetch.js"
+  return ["/technologie/2020/02/13/how-are-you/","/technologie/2020/02/13/Techno-1/","/general/2018/08/22/hello-world/","/about/","/categories/","/blog/","/","/manifest.json","/assets/search.json","/assets/styles.css","/redirects.json","/sitemap.xml","/robots.txt","/feed.xml","https://www.sortiraparis.com/images/80/1467/333646-ou-sortir-a-montmartre-2.jpg", "/assets/default-offline-image.png", "/assets/scripts/fetch.js"
   ]
 }
 

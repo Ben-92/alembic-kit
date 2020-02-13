@@ -12,6 +12,20 @@
         "url": "/general/2018/08/22/hello-world/"
       },
     
+      {
+        "title": "Deuxième article",
+        "excerpt": "Voici mon deuxième article.\ntechno 1\n\n",
+        "content": "Voici mon deuxième article.\ntechno 1\n\n",
+        "url": "/technologie/2020/02/13/Techno-1/"
+      },
+    
+      {
+        "title": "Premier article",
+        "excerpt": "Voici mon premier article.\nComment allez vous ?\n\n",
+        "content": "Voici mon premier article.\nComment allez vous ?\n\n",
+        "url": "/technologie/2020/02/13/how-are-you/"
+      },
+    
   
   
   
