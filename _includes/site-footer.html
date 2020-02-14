@@ -1,0 +1,21 @@
+<footer class="footer">
+  <div class="container">
+    <div class="copyright  typeset">
+      <!-- <small class="small">&copy; {{ site.title }} {{ site.time | date: '%Y' }}</small> -->
+     <!-- <small class="small">&copy; {{ site.title }} {{ site.time | date: '%Y' }}  {% if page.layout == "About" %} {{ site.title }} {% endif %}</small> -->
+      <small class="small">&copy; {{ site.title }} {{ site.time | date: '%Y' }}  {% if page.title == "About" %} test {% endif %}</small>
+     <!-- <small class="small">&copy; {{ site.title }} {{ site.time | date: '%Y' }}  {% if navigation_header.title == "about" %} test {% endif %}</small> -->
+      <!-- <small class="small">&copy; {{ site.title }} {{ site.time | date: '%Y' }}  {% if page.title == About %} {% include site-aside.html %}{% endif %}</small> -->
+      <!-- <small class="small">&copy; {{ site.title }} {{ site.time | date: '%Y' }}  test</small>  -->
+      <!-- <small class="small">&copy; {{ site.title }} {{ site.time | date: '%Y' }}  test</small>  -->
+      
+      <!--{% for item in site.navigation_header %}
+        {% if item.title contains 'About' %}
+         <small class="small">&copy; {{ site.title }} {{ site.time | date: '%Y' }}  test</small>  
+        {% endif %}
+      {% endfor %} -->
+    </div>
+
+    {% include nav-footer.html %}
+  </div>
+</footer>
