@@ -17,7 +17,8 @@ layout: default
   {% if page.aside == true %}{% include site-aside.html %}{% endif %}
 
 </main>
-<!--{% include site-footer.html %}-->
+{% comment %}{% include site-footer.html %} {% endcomment %}
+
 {% if page.title == "About this website" %}
    {% include site-footer-with.html %}
 {% else %}
